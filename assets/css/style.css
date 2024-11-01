@@ -1,0 +1,170 @@
+<style type="text/css">
+/*ADMIN PANEL CSS*/
+.inner-panel-dash-vmi 
+{
+    padding:10px 40px;
+    background: white !important;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 12px 0px #0000001f;
+}
+label.nametext-plugin 
+{
+    color: #000;
+    font-size: 18px;
+}
+.input-plugin 
+{
+    max-width: 100% !important;
+    height: 45px;
+    font-size: 16px;
+    width: 100% !important;
+}
+input.submit-plugin-btn 
+{
+    font-size: 18px;
+    max-width: 400px;
+    height: 48px;
+    border-radius: 30px;
+    color: white;
+    text-transform: uppercase;
+    background: #2196f3;
+    border: 1px solid #2196f3;
+    line-height: 16px;
+    cursor: pointer;
+    transition: 0.5s all;
+    width: 100%;
+    font-weight: 600;
+}
+input.submit-plugin-btn:hover 
+{
+    background: #23282d;
+    border-color: #23282d;
+    transition: 0.5s all;
+}
+/*ADMIN PANEL CSS*/
+/*ADMIN TOGGLE BUTTON CSS*/
+  .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: #2196F3;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/*ADMIN TOGGLE BUTTON CSS*/
+
+
+.vmi-checkout-suggestion input{
+    width: auto;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: #f0f3ff;
+    box-shadow: none;
+    color: #77798a;
+    font-size: 12px;
+    cursor: text;
+    padding: 4px 8px;
+    width: 192px;
+
+}
+.switch 
+{
+    float: right;
+}
+.inner-container {
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.input-btn-text-container {
+    flex-direction: column;
+    border-top: 2px solid #ccc;
+    padding-top: 30px;
+    margin-top: 40px;
+}
+.input-color-container {
+    position: relative;
+    overflow: hidden;
+    width: 60px;
+    height: 32px;
+    border: solid 1px #ddd;
+    border-radius: 40px;
+    float: right;
+}
+input[type="color"].input-color {
+    position: absolute;
+    right: -10px;
+    top: -8px;
+    width: 70px !important;
+    height: 56px;
+    border: none;
+    box-sizing: content-box;
+    max-width: 70px !important;
+}
+.input-btn-text-container .nametext-plugin {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+}
+.input-btn-text-container .input-plugin {
+    border-radius: 30px;
+    padding-left: 20px;
+}
+.vmi-checkout-suggestion {
+    border-top: 2px solid #ccc;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+.inner-panel-dash-vmi .slider.round
+{
+	height: 33px;
+}
+</style>
